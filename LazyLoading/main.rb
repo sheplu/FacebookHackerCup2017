@@ -1,10 +1,11 @@
+#!/usr/bin/ruby
 def readFile()
 	counter = 1
 	begin
 	    file = File.new("input", "r")
 	    number = file.gets
 	    while (line = file.gets)
-	        splitLine(line)
+	        addToArr(line)
 	    end
 	    file.close
 	rescue => err
@@ -13,10 +14,18 @@ def readFile()
 	end
 end
 
-def splitLine(line)
-	arr = line.split(' ')
-	p = arr[0].to_i
-	x = arr[1].to_i
-	y = arr[2].to_i
-	checkCircle(p, x, y)
+def addToArr(elem)
+	arr = []
+	arr.push(elem)
 end
+
+def buildLine(line)
+	
+end
+
+def doWork()
+
+end
+
+readFile()
+doWork()
