@@ -1,6 +1,6 @@
 #!/usr/bin/ruby
 
-#todo find angle and check if <= p
+#todo find angle and check if <= pg
 p = 0
 x = 0
 y = 0
