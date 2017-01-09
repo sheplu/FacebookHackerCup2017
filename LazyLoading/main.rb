@@ -1,4 +1,5 @@
 #!/usr/bin/ruby
+
 def readFile()
 	counter = 1
 	begin
@@ -6,6 +7,7 @@ def readFile()
 	    number = file.gets
 	    while (line = file.gets)
 	        addToArr(line)
+	        
 	    end
 	    file.close
 	rescue => err
