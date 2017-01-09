@@ -1,5 +1,6 @@
 #!/usr/bin/ruby
 
+#todo find angle and check if <= p
 p = 0
 x = 0
 y = 0
@@ -38,6 +39,7 @@ end
 
 def checkPercent(p, x, y)
 	percentArg = 3.6 * p
+
 end
 
 readFile()
